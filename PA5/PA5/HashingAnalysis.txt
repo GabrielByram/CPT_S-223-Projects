@@ -1,0 +1,36 @@
+Probing Hash Table:
+Inserting 1,000,000 elements took: 0.791162 seconds
+Searching for element 177 took: 2e-06 seconds
+Searching for element 2,000,000 took: 0.088268 seconds
+Erasing element 177 took: 0.089033 seconds
+Final size: 3559537
+Bucket count: 3559537
+Load Factor: 0.655934
+
+Chaining Hash Table:
+Inserting 1,000,000 elements took: 1.10499 seconds
+Searching for element 177 took: 2e-06 seconds
+Removing element 2,000,000 took: 8e-06 seconds
+Erasing element 177 took: 2e-06 seconds
+Final size: 1779761
+Bucket count: 999999
+Load Factor: 0.561873
+
+Parallel Probing Hash Table (1 Thread):
+Inserting 1,000,000 elements took: 9.44221 seconds
+Searching for element 177 took: 6e-06 seconds
+Searching for element 2,000,000 took: 0.191019 seconds
+Erasing element 177 took: 0.215109 seconds
+Final size: 3559537
+Bucket count: 3559537
+Load Factor: 0.627538
+
+Parallel Probing Hash Table (4 Threads):
+Inserting 1,000,000 elements took: 11.3369 seconds
+Searching for element 177 took: 3e-06 seconds
+Searching for element 2,000,000 took: 0.111743 seconds
+Erasing element 177 took: 0.41848 seconds
+Final size: 3559537
+Bucket count: 3559537
+Load Factor: 0.564854
+
